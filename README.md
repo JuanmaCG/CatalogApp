@@ -15,4 +15,6 @@ The page will reload if you make edits.<br />
 
 
 
+## API Usage
 
+The API is public and you can access with the following URL: https://api.github.com/repositories/19438/commits
