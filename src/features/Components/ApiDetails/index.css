@@ -1,0 +1,45 @@
+body {
+  background-color: #f0f0f0;
+  font-family: roboto;
+}
+
+/* Container Information */
+
+.containerInfo {
+  width: auto;
+  margin: 120px auto 120px;
+  background-color: #fff;
+  text-align: center;
+  
+}
+
+.listHeader {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #00baff;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+ul {
+    text-align: left;
+    list-style-type: none;
+}
+
+ul > li > span {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    color: rgb(27, 26, 26);
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    .containerInfo {
+        width: 400px;
+    }
+}
